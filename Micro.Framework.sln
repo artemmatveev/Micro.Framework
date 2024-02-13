@@ -34,6 +34,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.RabbitMq", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Middleware", "src\Micro.Framework.Middleware\Micro.Framework.Middleware.csproj", "{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.SignalR", "src\Micro.Framework.SignalR\Micro.Framework.SignalR.csproj", "{93B5DF51-D103-44B3-91AF-C250FC5E26F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,10 @@ Global
 		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B5DF51-D103-44B3-91AF-C250FC5E26F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B5DF51-D103-44B3-91AF-C250FC5E26F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B5DF51-D103-44B3-91AF-C250FC5E26F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B5DF51-D103-44B3-91AF-C250FC5E26F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{189B4891-5AEA-4DF7-AF1D-C7FB4F22BD3D} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
+		{93B5DF51-D103-44B3-91AF-C250FC5E26F5} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72B28CDC-183C-4C07-8A03-7468FF543956}
