@@ -16,23 +16,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Domain", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Common", "src\Micro.Framework.Common\Micro.Framework.Common.csproj", "{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.UseCase", "src\Micro.Framework.UseCase\Micro.Framework.UseCase.csproj", "{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.UseCase", "src\Micro.Framework.UseCase\Micro.Framework.UseCase.csproj", "{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Core", "src\Micro.Framework.Core\Micro.Framework.Core.csproj", "{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Core", "src\Micro.Framework.Core\Micro.Framework.Core.csproj", "{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Result", "src\Micro.Framework.Result\Micro.Framework.Result.csproj", "{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Result", "src\Micro.Framework.Result\Micro.Framework.Result.csproj", "{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Rest", "src\Micro.Framework.Rest\Micro.Framework.Rest.csproj", "{4EB2C949-DC6D-4AB1-9D8D-2D9BA2AFEB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Rest", "src\Micro.Framework.Rest\Micro.Framework.Rest.csproj", "{4EB2C949-DC6D-4AB1-9D8D-2D9BA2AFEB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Grpc.Core", "src\Micro.Framework.Grpc.Core\Micro.Framework.Grpc.Core.csproj", "{499E6C7F-573E-4CB3-A7AA-4750CE43D1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Grpc.Core", "src\Micro.Framework.Grpc.Core\Micro.Framework.Grpc.Core.csproj", "{499E6C7F-573E-4CB3-A7AA-4750CE43D1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Grpc", "src\Micro.Framework.Grpc\Micro.Framework.Grpc.csproj", "{70C1D179-93FC-4210-BD38-5F49F8F76A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Grpc", "src\Micro.Framework.Grpc\Micro.Framework.Grpc.csproj", "{70C1D179-93FC-4210-BD38-5F49F8F76A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.EntityFrameworkCore.SqlServer", "src\Micro.Framework.EntityFrameworkCore.SqlServer\Micro.Framework.EntityFrameworkCore.SqlServer.csproj", "{189B4891-5AEA-4DF7-AF1D-C7FB4F22BD3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.EntityFrameworkCore.SqlServer", "src\Micro.Framework.EntityFrameworkCore.SqlServer\Micro.Framework.EntityFrameworkCore.SqlServer.csproj", "{189B4891-5AEA-4DF7-AF1D-C7FB4F22BD3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.RabbitMq", "src\Micro.Framework.RabbitMq\Micro.Framework.RabbitMq.csproj", "{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.RabbitMq", "src\Micro.Framework.RabbitMq\Micro.Framework.RabbitMq.csproj", "{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Middleware", "Micro.Framework.Middleware\Micro.Framework.Middleware.csproj", "{532FB1FC-5FE4-4063-8FFD-9BADEBF95096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Middleware", "src\Micro.Framework.Middleware\Micro.Framework.Middleware.csproj", "{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,10 +80,10 @@ Global
 		{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{532FB1FC-5FE4-4063-8FFD-9BADEBF95096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{532FB1FC-5FE4-4063-8FFD-9BADEBF95096}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{532FB1FC-5FE4-4063-8FFD-9BADEBF95096}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{532FB1FC-5FE4-4063-8FFD-9BADEBF95096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,7 +99,7 @@ Global
 		{70C1D179-93FC-4210-BD38-5F49F8F76A7B} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{189B4891-5AEA-4DF7-AF1D-C7FB4F22BD3D} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{4CD00F6B-B4D1-40C0-B0C4-DA0E0DFD5A5C} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
-		{532FB1FC-5FE4-4063-8FFD-9BADEBF95096} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
+		{8800AFC6-DC40-42BC-8B9E-BBB1D0791BCE} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72B28CDC-183C-4C07-8A03-7468FF543956}

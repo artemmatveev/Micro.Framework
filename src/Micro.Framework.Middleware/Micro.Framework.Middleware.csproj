@@ -11,9 +11,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\src\Micro.Framework.Core\Micro.Framework.Core.csproj" />
-	  <ProjectReference Include="..\src\Micro.Framework.Grpc.Core\Micro.Framework.Grpc.Core.csproj" />
-	  <ProjectReference Include="..\src\Micro.Framework.Result\Micro.Framework.Result.csproj" />
+	  <ProjectReference Include="..\Micro.Framework.Core\Micro.Framework.Core.csproj" />
+	  <ProjectReference Include="..\Micro.Framework.Grpc.Core\Micro.Framework.Grpc.Core.csproj" />
+	  <ProjectReference Include="..\Micro.Framework.Result\Micro.Framework.Result.csproj" />
 	</ItemGroup>
 
 </Project>
