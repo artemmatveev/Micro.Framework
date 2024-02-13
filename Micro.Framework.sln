@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Domain", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Framework.Common", "src\Micro.Framework.Common\Micro.Framework.Common.csproj", "{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.UseCase", "src\Micro.Framework.UseCase\Micro.Framework.UseCase.csproj", "{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4A71164D-78F3-4360-A899-8FB5D1375082} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
+		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72B28CDC-183C-4C07-8A03-7468FF543956}

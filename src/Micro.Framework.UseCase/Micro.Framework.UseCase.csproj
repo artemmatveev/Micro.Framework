@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Micro.Framework.Common\Micro.Framework.Common.csproj" />
+    <ProjectReference Include="..\Micro.Framework.Domain\Micro.Framework.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
