@@ -1,10 +1,10 @@
 ﻿namespace Micro.Framework.Common.Model
 {
-    public enum Lang : byte
+    public enum Lang : ushort
     {
         Unspecified = 0,
-        Ru = 1,
-        En,
-        It
+        Ru = 570,
+        En = 45,        
+        Zh = 315
     }
 }
