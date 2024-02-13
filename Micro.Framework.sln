@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.UseCase", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Core", "src\Micro.Framework.Core\Micro.Framework.Core.csproj", "{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Framework.Result", "src\Micro.Framework.Result\Micro.Framework.Result.csproj", "{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB6804F-7DDF-45B3-BE10-78CE46EC8731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{C29C0AF4-857B-4A2C-83D1-E5BE5C26BB5A} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{7162FC75-3C63-4237-9C8D-F3DAFFA048E8} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 		{BDCC7F1D-C5F8-4D1E-B87B-2962A93496C1} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
+		{EBB6804F-7DDF-45B3-BE10-78CE46EC8731} = {6D1B0C12-769F-49F0-9433-78B400D1B461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72B28CDC-183C-4C07-8A03-7468FF543956}
