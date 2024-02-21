@@ -4,7 +4,7 @@
 
     public static class ServiceCollectionExtension
     {
-        public static IServiceCollection AddIemsGrpc(this IServiceCollection services,
+        public static IServiceCollection AddGrpcInterceptors(this IServiceCollection services,
             IConfiguration configuration)
         {
             services.AddGrpc(o =>
