@@ -195,6 +195,13 @@
         public virtual async Task<int> UpdateAsync(string sql, params object[] parameters)
             => await _context.Database.ExecuteSqlRawAsync(sql, parameters);
 
+        public virtual async Task<int> UpdateAsync(TEntity entity)
+        {
+            _context.Set<TEntity>().Update(entity);
+
+            return await _context.SaveChangesAsync();
+        }
+
         public virtual async Task<int> DeleteAsync(long id)
         {
             var entity = await _context.Set<TEntity>().FirstOrDefaultAsync(e => e.Id == id);
