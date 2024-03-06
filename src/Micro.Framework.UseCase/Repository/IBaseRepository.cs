@@ -18,6 +18,7 @@
         Task<int> UpdateAsync(long id, Action<TEntity> action);
         Task<int> UpdateAsync(long id, Action<TEntity> action, Expression<Func<TEntity, bool>> expression);
         Task<int> UpdateAsync(string sql, params object[] parameters);
+        Task<int> UpdateAsync(TEntity entity);
         Task<int> DeleteAsync(long id);
         Task<int> DeleteAsync(TEntity entity);
         Task<int> DeleteAsync(string sql, params object[] parameters);
